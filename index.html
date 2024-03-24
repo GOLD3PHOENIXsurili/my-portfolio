@@ -1,0 +1,593 @@
+<!DOCTYPE html>0 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfo<span id="abc">lio</span></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Binay Kushwaha</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/DP.jpg" alt=" Binay Kushwaha DP" />
+      </div>
+      <div class="section__text">
+        <h1>Hi, It's <span>Binay,</span></h1>
+        <h3 class="typing-text">I'm   <span></span></h3>
+        <!-- <p> This is that and that is thais and these are those and those are these. They are them and them are they and you are you and me is me. I am me.</p>
+
+        <div class="social-icon">
+          <a href="#"><i class="fa-brands fa-hackerrank"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <a href="#" clas="btn">Hire Me</a> -->
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('resume.pdf')"
+        >
+         <a href="resume.html" download style="text-decoration: none";>Download resume </a>   
+        </button>
+        
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Hire ME
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="/linkedin-icon-512x512-vkm0drb1.webp"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/binay-kushwaha-5103331b5/'"
+          />
+          <img
+            src="/github.webp"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/GOLD3PHOENIXsurili'"
+          />
+          <img
+            src="/160_Hackerrank_logo_logos-512.webp"
+            alt="My Hackerrank profile"
+            class="icon"
+            onclick="location.href='https://www.hackerrank.com/profile/GOLD3PHOENIX'"
+          />
+          <img
+            src="/discord.webp"
+            alt="My Discord profile"
+            class="icon"
+            onclick="location.href='https://www.discord.com'"
+          />
+          <img
+            src="/insta2.svg"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/profile/GOLD3PHOENIX'"
+          />
+        </div>
+        <div id="video">
+            <video controls>
+                <source src="parachaute.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              
+    
+          </div>
+      </div>
+
+      
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Know more About Me</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="/redmoon.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="/experience.webp"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="/education.webp"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B. Tech Computer Science<br />M. Tech Engineering Physics</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Hey there! I'm Binay Kushwaha, a budding developer fueled by curiosity and a love for creating cool stuff.
+                I'm on an exciting journey of learning and discovery in the vast world of coding.<br><br>
+
+                From tinkering with code to building my first websites and apps, I'm constantly honing my skills and exploring 
+                new technologies. Whether it's designing sleek interfaces or diving into the backend magic, I'm always up for a
+                 challenge.<br><br>
+                
+                But it's not just about the code for me - I thrive on collaborating with others, exchanging ideas, and bringing
+                projects to life. I believe that every line of code is an opportunity to learn and grow.<br><br>
+                
+                Let's embark on this coding adventure together and make some awesome things happen!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/arrow.webp"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/HTML5_logo_and_wordmark.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <pre>Experienced                  </pre>
+
+                  <span class ="bar"><span class="HTML"></span></span>
+                  <div class="per" per="90%" style="max-width: 90%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/CSS-Logo-500x313.webp"
+                  alt="Experience icon" 
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <pre>Experienced             </pre>
+                  <span class ="bar"><span class="CSS"></span></span>
+                  <div class="per" per="75%" style="max-width: 75%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/java.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                  <pre>Intermediate                  </pre>
+                  <span class ="bar"><span class="JAVA"></span></span>
+                  <div class="per" per="68%" style="max-width: 68%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/javascript-1.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <pre>Basic                              </pre>
+                  <span class ="bar"><span class="JavaScript"></span></span>
+                  <div class="per" per="40%" style="max-width: 40%;"></div>
+
+                  
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/figma1.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma    </h3>
+                  <pre>Basic                             </pre>
+                  <span class ="bar"><span class="Figma"></span></span>
+                  <div class="per" per="50%" style="max-width: 50%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/pyhton.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <pre>Intermediate                  </pre>
+                  <span class ="bar"><span class="Python"></span></span>
+                  <div class="per" per="80%" style="max-width: 80%;"></div>
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="/MySQL-Logo-500x313.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <pre>Beginner                         </pre>
+                  <span class ="bar"><span class="SQL"></span></span>
+                  <div class="per" per="48%" style="max-width: 48%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/nodejs.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <pre>Basic                        </pre>
+                  <span class ="bar"><span class="Node_JS"></span></span>
+                  <div class="per" per="45%" style="max-width: 45%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/machine learning.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <pre>Basic                                   </pre>
+                  <span class ="bar"><span class="Machine_Learning"></span></span>
+                  <div class="per" per="40%" style="max-width: 40%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/git6963.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <pre>Beginner                     </pre>
+                  <span class ="bar"><span class="Git"></span></span>
+                  <div class="per" per="65%" style="max-width: 65%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/ruby.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ruby</h3>
+                  <pre>Beginner                     </pre>
+                  <span class ="bar"><span class="Git"></span></span>
+                  <div class="per" per="65%" style="max-width: 65%;"></div>
+
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="/react-icon-512x449-reiviifo.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <pre>Beginner                     </pre>
+                  <span class ="bar"><span class="Git"></span></span>
+                  <div class="per" per="65%" style="max-width: 65%;"></div>
+
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/arrow.webp"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent Projects</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/snake-game-ai-gen.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Snake</h2>
+            <div class="btn-container">
+              <button
+                <!-- class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'" -->
+              <!-- > -->
+                Github
+              </button>
+              <button
+                <!--   class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"   -->
+              
+                Live Demo <a href="/snake.html"></a>
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/tetris1.webp"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Tetris</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/Solar System Projects For Kids.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Space</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="/arrow.webp"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+    <section id="projects1">
+      <!-- <p class="section__text__p1">Browse My Recent Projects</p> -->
+      <!-- <h1 class="title">Projects</h1> -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/html5-parallax-website-templates.webp"
+                alt="Project parallax"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Parallax</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/solar-system-11.gif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Solar SYS</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/lyric_cover.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Lyric</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/arrow.webp"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/education.webp"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">binaykushwaha1244@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/linkedin-icon-512x512-vkm0drb1.webp"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#420; 2024 Binay Kushwaha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js">
+        function toggleMenu() {
+            const menu = document.querySelector(".menu-links");
+            const icon = document.querySelector(".hamburger-icon");
+            menu.classList.toggle("open");
+            icon.classList.toggle("open");
+}
+    </script>
+  </body>
+</html>
